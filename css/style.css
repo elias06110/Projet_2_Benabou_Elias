@@ -529,6 +529,18 @@ form {
     color: black;
 }
 
+.width-activités2{
+    margin-top: 20px;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.width-activités{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
 /*Responsive tablette*/
 
 @media screen and (max-width: 1230px){
