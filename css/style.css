@@ -1,3 +1,5 @@
+/*General*/
+
 body {
     font-family: 'Raleway', sans-serif;
     max-width: 1400px;
@@ -385,6 +387,7 @@ form {
 
 /*Populaires*/
 
+
 .bloc-pop {
     padding-left: 20px;
     padding-right: 20px;
@@ -539,8 +542,6 @@ form {
         margin-top: 20px;
 }
 }
-    
-
 
 @media screen and (max-width:992px) {
 .tab-column{display: flex;
@@ -698,7 +699,7 @@ form {
     margin-left: 40px;
 }
 
-.size-populaires{width: 856px;
+.size-populaires{width: 776px;
     height: 278px;
     background-color: #F2F2F2;
     border-radius: 20px;
@@ -721,6 +722,15 @@ form {
 
 .bloc-hebergements {
     padding-left:50px;
+}
+
+.bloc-pop {
+    padding-left: 0px;
+    padding-right: 80px;
+    padding-left: 50px;
+   
+   
+     
 }
 
 .bloc1 {
@@ -768,7 +778,7 @@ form {
     background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    width: 246px;
+    width: 206px;
     height: 144px;
     border-radius: 20px 0 0 20px;
 }
@@ -777,7 +787,7 @@ form {
     background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    width: 246px;
+    width: 206px;
     height: 144px;
     border-radius: 20px 0 0 20px;
 }
@@ -786,7 +796,7 @@ form {
     background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    width: 246px;
+    width: 206px;
     height: 144px;
     border-radius: 20px 0 0 20px;}
 
@@ -835,12 +845,12 @@ form {
 
 .cube-pop {
     background-color: white;
-    height: 160px;
-    padding-right: 0.2% 0 0.2% 0.2% ;
+    height: 135px;
+    padding: 1% ;
     border-radius: 20px;
     cursor: pointer;
-    width: 246px;
-    margin-right: 20px;
+    width: 237px;
+    margin-right: 25px;
 }
 
 .cube-detail-pop {
@@ -892,7 +902,7 @@ form {
 }
 
 
-
+/* Responsive mobile */
 
 
 @media screen and (max-width: 768px) {
@@ -1222,7 +1232,7 @@ form {
     .activités {
         
         margin-top: 900px;
-        margin-left: 25px;
+        margin-left: 28px;
         margin-right: 150px;
     }
 
@@ -1230,7 +1240,7 @@ form {
         background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
         background-size: cover;
         background-position: center;
-        width: 350px;
+        width: 357px;
         height: 124px;
         border-radius: 15px 15px 0 0;
     }
@@ -1239,7 +1249,7 @@ form {
         background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
         background-size: cover;
         background-position: center;
-        width: 350px;
+        width: 357px;
         height: 124px;
         border-radius: 15px 15px 0 0;
     }
@@ -1248,7 +1258,7 @@ form {
         background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
         background-size: cover;
         background-position: center;
-        width: 350px;
+        width: 357px;
         height: 124px;
         border-radius: 15px 15px 0 0;
     }
@@ -1257,13 +1267,13 @@ form {
         background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
         background-size: cover;
         background-position: center;
-        width: 350px;
+        width: 357px;
         height: 124px;
         border-radius: 15px 15px 0 0;
     }
     
     .cube-activités {
-        width: 350px;
+        width: 357px;
         border-radius: 15px;
         box-shadow: 1px 9px 9px 6px #F2F2F2;
         cursor:pointer;
