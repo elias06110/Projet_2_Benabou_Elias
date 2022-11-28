@@ -22,6 +22,10 @@ h3, p{
     margin-top: 10px;
 }
 
+h3{
+    font-size: 16px;
+}
+
 
 
 /*Header*/
@@ -256,6 +260,10 @@ form {
 
 .bloc-hebergements {
     padding-left:40px;
+}
+
+.font-size-small{
+    font-size: small;
 }
 
 
@@ -551,7 +559,7 @@ form {
 }
 
 .margin-search{
-    margin-left: 0px;
+    margin-left: 20px;
 }
 
 .margin-filtre-titre {
@@ -580,7 +588,7 @@ form {
     height: 19px;
     margin-top: 44px;
     cursor: pointer;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 .carte-hebergements {
@@ -652,7 +660,7 @@ form {
 .textgras {
 
     margin-top: 63px;
-    margin-left: 20px;
+    margin-left: 40px;
     width: 100%;
     
 }
@@ -660,7 +668,7 @@ form {
 .margin-filtre {
     margin-top: 50px;
     margin-bottom: 40px;
-    margin-left: 20px;
+    margin-left: 40px;
     width: 100%;
 }
 
@@ -749,8 +757,8 @@ form {
     align-items: center;
     flex-direction: row;
 }
-.cube-activités{width: 162px;
-    height: 290px;
+.cube-activités{width: 182px;
+    height: 267px;
     border-radius: 15px;
     box-shadow: 1px 9px 9px 6px #F2F2F2;
     cursor: pointer;
@@ -786,8 +794,8 @@ form {
     background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    width: 162px;
-    height: 227px;
+    width: 182px;
+    height: 211px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -795,8 +803,8 @@ form {
     background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    width: 162px;
-    height: 227px;
+    width: 182px;
+    height: 211px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -804,8 +812,8 @@ form {
     background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    width: 162px;
-    height: 227px;
+    width: 182px;
+    height: 211px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -813,8 +821,8 @@ form {
     background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
     background-size: cover;
     background-position: center;
-    width: 162px;
-    height: 227px;
+    width: 182px;
+    height: 211px;
     border-radius: 15px 15px 0 0;
 }
 
@@ -863,9 +871,23 @@ form {
     margin-top: 20px;
 }
 
+.width-activités{
+    font-size: 16px;
+    
+}
+
+.width-activités2{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
 .margin-activités2 {
     margin-left: 10px;
     margin-top:0px;
+}
+
+.marg-links-footer{
+    margin-bottom: 25px;
 }
 }
 
@@ -934,7 +956,7 @@ form {
         padding-bottom: 20px;
         color:black;
         width: 100%;
-        padding-left: 40%;
+        padding-left: 25%;
         padding-right: 50%;
         margin-right: 150px;
     }
@@ -948,24 +970,28 @@ form {
     
 
     .filtre-text-icons {
-        width: 170px;
+        width: 160px;
         border: 3px solid #F2F2F2;
         height: 50px;
         border-radius: 30px;
         margin-top: 20px;
-        margin-right:5px;
+        margin-right:0px;
         margin-left: 00px;
         font-weight: bold;
         cursor: pointer;
     }
 
     .filtre-texte {
-        margin-right: 20px;
+        margin-right: 0px;
         border-radius: 0 25px 25px 0;
     }
     
+    .padding-filtre{
+        padding-right: 40px;
+    }
+
     .textgras {margin-top: 63px;
-        margin-left: 25px;
+        margin-left: 30px;
         width: 90%;
     }
 
@@ -975,10 +1001,22 @@ form {
         margin-left: 25px;
     }
 
+    .filtre-icons {
+        border-radius: 25px;
+        width: 20px;
+        height: 20px;
+        color: #0065FC;
+        padding-right: 5px;
+        
+       
+    }
+
+
+
     .filtre {
         display: flex;
         flex-direction: column;
-        margin-left: 1 0px;
+        margin-left: 25px;
      }
 
      .filtrage{
@@ -1003,7 +1041,7 @@ form {
     .bordure-search {
         width: 300px;
         border-radius: 10px;
-        margin-left: 20px;
+        margin-left: 25px;
         border: 0.5px solid #F2F2F2;
     }
 
@@ -1013,6 +1051,7 @@ form {
         margin-left:10px;
         margin-right: 10px;
         padding-left: 10px;
+        margin-bottom: 20px;
     }
 
     .circle-icon {
@@ -1065,7 +1104,7 @@ form {
     .cube-pop {
         background-color: white;
         height: 144px;
-        width: 334px;
+        width: 350px;
         padding: 1% 0 1% 1%;
         border-radius: 20px;
         cursor: pointer;
@@ -1110,7 +1149,7 @@ form {
     }
 
     .carte-hebergements {
-        width: 335px;
+        width: 350px;
         height: 199px;
         background-color: white;
         padding: 1%;
@@ -1125,7 +1164,7 @@ form {
         background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
         background-size: cover;
         background-position: center;
-        width: 335px;
+        width: 350px;
         height: 124px;
         border-radius: 20px 20px 0 0;
     }
@@ -1134,7 +1173,7 @@ form {
         background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
         background-size: cover;
         background-position: center;
-        width: 335px;
+        width: 350px;
         height: 124px;
         border-radius: 20px 20px 0 0;
     }
@@ -1143,7 +1182,7 @@ form {
         background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
         background-size: cover;
         background-position: center;
-        width: 335px;
+        width:350px;
         height: 124px;
         border-radius: 20px 20px 0 0;
     }
@@ -1152,7 +1191,7 @@ form {
         background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
         background-size: cover;
         background-position: center;
-        width: 335px;
+        width: 350px;
         height: 124px;
         border-radius: 20px 20px 0 0;
     }
@@ -1161,7 +1200,7 @@ form {
         background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
         background-size: cover;
         background-position: center;
-        width: 335px;
+        width: 350px;
         height: 124px;
         border-radius: 20px 20px 0 0;
     }
@@ -1170,7 +1209,7 @@ form {
         background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
         background-size: cover;
         background-position: center;
-        width: 335px;
+        width: 350px;
         height: 124px;
         border-radius: 20px 20px 0 0;
     }
@@ -1183,7 +1222,7 @@ form {
     .activités {
         
         margin-top: 900px;
-        margin-left: 50px;
+        margin-left: 25px;
         margin-right: 150px;
     }
 
@@ -1191,7 +1230,7 @@ form {
         background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
         background-size: cover;
         background-position: center;
-        width: 334px;
+        width: 350px;
         height: 124px;
         border-radius: 15px 15px 0 0;
     }
@@ -1200,7 +1239,7 @@ form {
         background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
         background-size: cover;
         background-position: center;
-        width: 334px;
+        width: 350px;
         height: 124px;
         border-radius: 15px 15px 0 0;
     }
@@ -1209,7 +1248,7 @@ form {
         background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
         background-size: cover;
         background-position: center;
-        width: 334px;
+        width: 350px;
         height: 124px;
         border-radius: 15px 15px 0 0;
     }
@@ -1218,13 +1257,13 @@ form {
         background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
         background-size: cover;
         background-position: center;
-        width: 334px;
+        width: 350px;
         height: 124px;
         border-radius: 15px 15px 0 0;
     }
     
     .cube-activités {
-        width: 334px;
+        width: 350px;
         border-radius: 15px;
         box-shadow: 1px 9px 9px 6px #F2F2F2;
         cursor:pointer;
@@ -1243,6 +1282,10 @@ form {
         height: 150px;
     }
     
+    .marg-links-footer{
+        margin-bottom: 25px;
+    }
+
     .marg-footer1 {
         margin-left: 0px;
         margin-right: 130px;
