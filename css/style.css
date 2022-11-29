@@ -133,7 +133,7 @@ a {
     cursor: pointer;
     border-radius: 0 10px 10px 0;
     font-size: medium;
-}
+border: none;}
 
 
 .back-grey {
@@ -917,7 +917,11 @@ form {
 /* Responsive mobile */
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 400px) {
+
+    body{
+        max-width: 390px;
+    }
 
     .between-container{display: flex;
     align-items: center;
@@ -1319,12 +1323,12 @@ form {
 
     .marg-footer2 {
         margin-left: 0px;
-        margin-right: 150px;
+        margin-right: 180px;
     }
     
     .marg-footer3 {
         margin-left: 0px;
-        margin-right: 200px;
+        margin-right: 210px;
     }
 
     .hide{
