@@ -237,8 +237,8 @@ form {
     justify-content: space-around;
     width: 100%;
     height: auto;
-    flex-direction: row;
-    flex-wrap: nowrap;
+   flex-grow: 1;
+   
 
 }
 
@@ -561,6 +561,8 @@ form {
     align-items: center;
     flex-direction: column;
 }
+
+
 
 .evenly-container{
     margin-right: 40px;
@@ -917,7 +919,7 @@ form {
 /* Responsive mobile */
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
 
     body{
         max-width: 390px;
