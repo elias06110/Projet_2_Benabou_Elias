@@ -15,16 +15,16 @@ body {
     color: #F2F2F2;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
-h3, p{
+h3, p {
     margin-bottom: 10px;
     margin-top: 10px;
 }
 
-h3{
+h3 {
     font-size: 16px;
 }
 
@@ -71,7 +71,7 @@ h3{
 
 .activités-link {
     color: black;
-    
+
     padding-left: 20px;
     padding-right: 20px;
 
@@ -85,7 +85,7 @@ h3{
 
 
 
-.activités-link:hover{
+.activités-link:hover {
     border-top: #0065FC 3px solid;
     padding-top: 46px;
     color: #0065FC;
@@ -133,7 +133,8 @@ a {
     cursor: pointer;
     border-radius: 0 10px 10px 0;
     font-size: medium;
-border: none;}
+    border: none;
+}
 
 
 .back-grey {
@@ -179,10 +180,10 @@ form {
     flex-wrap: wrap;
 }
 
-.filtrage{
+.filtrage {
     display: flex;
     justify-content: space-between;
- }
+}
 
 .margin-filtre-titre {
     margin-right: 20px;
@@ -232,13 +233,13 @@ form {
 
 /*Hebergements*/
 
-.container{
+.container {
     display: flex;
     justify-content: space-around;
     width: auto;
     height: auto;
-   
-   
+
+
 
 }
 
@@ -261,69 +262,22 @@ form {
 }
 
 .bloc-hebergements {
-    padding-left:40px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
-.font-size-small{
+.font-size-small {
     font-size: small;
 }
 
 
-.img-Hebergement1 {
-    background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+.img-Hebergement {
     background-size: cover;
     background-position: center;
     width: 246px;
     height: 124px;
     border-radius: 20px 20px 0 0;
 }
-
-.img-Hebergement2 {
-    background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 246px;
-    height: 124px;
-    border-radius: 20px 20px 0 0;
-}
-
-.img-Hebergement3 {
-    background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
-    background-size:cover;
-    background-position: center;
-    width: 246px;
-    height: 124px;
-    border-radius: 20px 20px 0 0;
-}
-
-.img-Hebergement4 {
-    background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 246px;
-    height: 124px;
-    border-radius: 20px 20px 0 0;
-}
-
-.img-Hebergement5 {
-    background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 246px;
-    height: 124px;
-    border-radius: 20px 20px 0 0;
-}
-
-.img-Hebergement6 {
-    background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 246px;
-    height: 124px;
-    border-radius: 20px 20px 0 0;
-}
-
-
 
 .column-around {
     display: flex;
@@ -355,7 +309,8 @@ form {
     width: 246px;
     height: 200px;
     background-color: white;
-    padding: 0.5%;
+    padding: 1%
+    ;
     border-radius: 20px;
     margin-right: 30px;
     cursor: pointer;
@@ -372,7 +327,7 @@ form {
     margin-top: 20px;
     width: 95%;
     padding-right: 10px;
-    
+
 }
 
 .carte-detail {
@@ -391,7 +346,7 @@ form {
 .bloc-pop {
     padding-left: 20px;
     padding-right: 20px;
-     
+
 }
 
 .bloc-pop12 {
@@ -414,7 +369,6 @@ form {
 }
 
 .img-populaire1 {
-    background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
     background-size: cover;
     background-position: center;
     width: 137px;
@@ -423,7 +377,6 @@ form {
 }
 
 .img-populaire2 {
-    background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
     background-size: cover;
     background-position: center;
     width: 137px;
@@ -432,7 +385,6 @@ form {
 }
 
 .img-populaire3 {
-    background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
     background-size: cover;
     background-position: center;
     width: 137px;
@@ -460,35 +412,7 @@ form {
     height: 500px;
 }
 
-.img-activités1 {
-    background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 302px;
-    height: 444px;
-    border-radius: 15px 15px 0 0;
-}
-
-.img-activités2 {
-    background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 302px;
-    height: 444px;
-    border-radius: 15px 15px 0 0;
-}
-
-.img-activités3 {
-    background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 302px;
-    height: 444px;
-    border-radius: 15px 15px 0 0;
-}
-
-.img-activités4 {
-    background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+.img-activités {
     background-size: cover;
     background-position: center;
     width: 302px;
@@ -498,7 +422,7 @@ form {
 
 .margin-activités {
     margin-left: 20px;
-    margin-top:15px;
+    margin-top: 15px;
 }
 
 
@@ -529,13 +453,13 @@ form {
     color: black;
 }
 
-.width-activités2{
+.width-activités2 {
     margin-top: 20px;
     font-size: 16px;
     margin-left: 20px;
 }
 
-.width-activités{
+.width-activités {
     margin-top: 20px;
     margin-left: 20px;
     font-size: 16px;
@@ -543,188 +467,148 @@ form {
 
 /*Responsive tablette*/
 
-@media screen and (max-width: 1230px){
+@media screen and (max-width: 1230px) {
     .sizehebergements {
-       width: auto;
+        width: auto;
         height: 625px;
         background-color: #F2F2F2;
         border-radius: 20px;
         margin-left: 20px;
         margin-right: 20px;
         margin-top: 20px;
-}
-}
-
-@media screen and (max-width:992px) {
-.tab-column{display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    }
 }
 
 
 
-.evenly-container{
-    margin-right: 40px;
-}
-
-.filtre {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.margin-search{
-    margin-left: 20px;
-}
-
-.margin-filtre-titre {
-    margin-right: 10px;
-
-}
-
-.hebergement-link {
-    padding-left: 20px;
-    padding-right: 20px;
-    color: black;
-
-}
 
 
-
-.activités-link {
-    color: black;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-
-.Logo {
-    width: 61.09px;
-    height: 19px;
-    margin-top: 44px;
-    cursor: pointer;
-    margin-left: 40px;
-}
-
-.carte-hebergements {
-    width: 246px;
-    height: 192px;
-    background-color: white;
-    padding: 1%;
-    border-radius: 20px;
-    margin-right: 20px;
-    cursor: pointer;
-}
-
-
-.img-Hebergement1 {
-    background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 246px;
-    height: 150px;
-    border-radius: 20px 20px 0 0;
-}
-
-.img-Hebergement2 {
-    background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 246px;
-    height: 124px;
-    border-radius: 20px 20px 0 0;
-}
-
-.img-Hebergement3 {
-    background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 246px;
-    height: 124px;
-    border-radius: 20px 20px 0 0;
-}
-
-.img-Hebergement4 {
-    background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 246px;
-    height: 124px;
-    border-radius: 20px 20px 0 0;
-}
-
-.img-Hebergement5 {
-    background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 246px;
-    height: 124px;
-    border-radius: 20px 20px 0 0;
-}
-
-.img-Hebergement6 {
-    background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 246px;
-    height: 124px;
-    border-radius: 20px 20px 0 0;
-}
-
-
-.textgras {
-
-    margin-top: 63px;
-    margin-left: 40px;
-    width: 100%;
-    
-}
-
-.margin-filtre {
-    margin-top: 50px;
-    margin-bottom: 40px;
-    margin-left: 40px;
-    width: 100%;
-}
-
-.filtre-texte {
-    margin-right: 20px;
-    border-radius: 0 25px 25px 0;
-}
-
-.filtrage{
-    display:flex;
-    justify-content:space-between;
- }
-
- .filtre-text-icons {
-    border: 3px solid #F2F2F2;
-    height: 40px;
-    border-radius: 30px;
-    margin-right: 10px;
-    font-weight: bold;
-    cursor: pointer;
-    width:auto;
-}
-
-.info {
-    display: flex;
-    align-items: center;
-    margin-left: 40px;
-}
-
-.size-populaires{width: 776px;
-    height: 278px;
-    background-color: #F2F2F2;
-    border-radius: 20px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 20px;
+@media only screen and (max-width: 991px) {
+    .tab-column {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 
-    
 
-.sizehebergements {
+
+    .evenly-container {
+        margin-right: 40px;
+    }
+
+    .filtre {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .margin-search {
+        margin-left: 20px;
+    }
+
+    .margin-filtre-titre {
+        margin-right: 10px;
+
+    }
+
+    .hebergement-link {
+        padding-left: 20px;
+        padding-right: 20px;
+        color: black;
+
+    }
+
+
+
+    .activités-link {
+        color: black;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+
+    .Logo {
+        width: 61.09px;
+        height: 19px;
+        margin-top: 44px;
+        cursor: pointer;
+        margin-left: 40px;
+    }
+
+    .carte-hebergements {
+        width: 246px;
+        height: 192px;
+        background-color: white;
+        padding: 1%;
+        border-radius: 20px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+
+
+    .img-Hebergement {
+        background-size: cover;
+        background-position: center;
+        width: 246px;
+        height: 150px;
+        border-radius: 20px 20px 0 0;
+    }
+
+
+    .textgras {
+
+        margin-top: 63px;
+        margin-left: 40px;
+        width: 100%;
+
+    }
+
+    .margin-filtre {
+        margin-top: 50px;
+        margin-bottom: 40px;
+        margin-left: 40px;
+        width: 100%;
+    }
+
+    .filtre-texte {
+        margin-right: 20px;
+        border-radius: 0 25px 25px 0;
+    }
+
+    .filtrage {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .filtre-text-icons {
+        border: 3px solid #F2F2F2;
+        height: 40px;
+        border-radius: 30px;
+        margin-right: 10px;
+        font-weight: bold;
+        cursor: pointer;
+        width: auto;
+    }
+
+    .info {
+        display: flex;
+        align-items: center;
+        margin-left: 40px;
+    }
+
+    .size-populaires {
+        width: 776px;
+        height: 278px;
+        background-color: #F2F2F2;
+        border-radius: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+
+
+
+    .sizehebergements {
         width: 856px;
         height: 625px;
         background-color: #F2F2F2;
@@ -732,210 +616,189 @@ form {
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 20px;
+    }
+
+    .bloc-hebergements {
+        padding-left: 50px;
+    }
+
+    .bloc-pop {
+        padding-left: 0px;
+        padding-right: 80px;
+        padding-left: 50px;
+
+
+
+    }
+
+    .bloc1 {
+        margin-bottom: 20px;
+        width: 50%;
+        padding-right: 0px;
+    }
+
+    .bloc2 {
+        margin-bottom: 20px;
+        width: 50%;
+        padding-right: 10px;
+    }
+
+
+    .carte-detail {
+        width: 90%;
+        height: auto;
+    }
+
+
+
+    .cube-detail-pop-chambre {
+        width: 100%;
+        padding-left: 6%;
+        height: 190px;
+        margin-bottom: 6px;
+    }
+
+
+    .tab-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .cube-activités {
+        width: 182px;
+        height: 267px;
+        border-radius: 15px;
+        box-shadow: 1px 9px 9px 6px #F2F2F2;
+        cursor: pointer;
+    }
+
+    .img-populaire1 {
+        background-size: cover;
+        background-position: center;
+        width: 206px;
+        height: 144px;
+        border-radius: 20px 0 0 20px;
+    }
+
+    .img-populaire2 {
+        background-size: cover;
+        background-position: center;
+        width: 206px;
+        height: 144px;
+        border-radius: 20px 0 0 20px;
+    }
+
+    .img-populaire3 {
+        background-size: cover;
+        background-position: center;
+        width: 206px;
+        height: 144px;
+        border-radius: 20px 0 0 20px;
+    }
+
+    .img-activités {
+        background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 182px;
+        height: 211px;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .bloc-activités {
+        width: 95%;
+        height: auto;
+
+    }
+
+    .cube-pop {
+        background-color: white;
+        height: 135px;
+        padding: 1%;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 237px;
+        margin-right: 25px;
+    }
+
+    .cube-detail-pop {
+        width: 100%;
+        padding-left: 6%;
+        height: auto;
+    }
+
+    .activités {
+        margin-top: 60px;
+        margin-left: 40px;
+    }
+
+    .footer-gris {
+        background-color: #F2F2F2;
+        width: 91%;
+        height: 225px;
+        margin-left: 40px;
+        margin-top: 100px;
+    }
+
+    .links-size {
+        margin-right: 80px;
+    }
+
+    .margin-activités {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .width-activités {
+        font-size: 16px;
+
+    }
+
+    .width-activités2 {
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    .margin-activités2 {
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+
+    .marg-links-footer {
+        margin-bottom: 25px;
+    }
 }
 
-.bloc-hebergements {
-    padding-left:50px;
-}
 
-.bloc-pop {
-    padding-left: 0px;
-    padding-right: 80px;
-    padding-left: 50px;
-   
-   
-     
-}
-
-.bloc1 {
-    margin-bottom: 20px;
-    width: 50%;
-    padding-right: 0px;
-}
-
-.bloc2 {
-    margin-bottom: 20px;
-    width: 50%;
-    padding-right: 10px;
-}
-
-
-.carte-detail {
-    width: 90%;
-    height: auto;
-}
-
-
-
-.cube-detail-pop-chambre {
-    width: 100%;
-    padding-left: 6%;
-    height: 190px;
-    margin-bottom: 6px;
-}
-
-
-.tab-row{
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    flex-direction: row;
-}
-.cube-activités{width: 182px;
-    height: 267px;
-    border-radius: 15px;
-    box-shadow: 1px 9px 9px 6px #F2F2F2;
-    cursor: pointer;
-}
-
-.img-populaire1 {
-    background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 206px;
-    height: 144px;
-    border-radius: 20px 0 0 20px;
-}
-
-.img-populaire2 {
-    background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 206px;
-    height: 144px;
-    border-radius: 20px 0 0 20px;
-}
-
-.img-populaire3 {
-    background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 206px;
-    height: 144px;
-    border-radius: 20px 0 0 20px;}
-
-.img-activités1 {
-    background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 182px;
-    height: 211px;
-    border-radius: 15px 15px 0 0;
-}
-
-.img-activités2 {
-    background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 182px;
-    height: 211px;
-    border-radius: 15px 15px 0 0;
-}
-
-.img-activités3 {
-    background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 182px;
-    height: 211px;
-    border-radius: 15px 15px 0 0;
-}
-
-.img-activités4 {
-    background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 182px;
-    height: 211px;
-    border-radius: 15px 15px 0 0;
-}
-
-
-.bloc-activités {
-    width:95%;
-    height: auto;
-    
-}
-
-.cube-pop {
-    background-color: white;
-    height: 135px;
-    padding: 1% ;
-    border-radius: 20px;
-    cursor: pointer;
-    width: 237px;
-    margin-right: 25px;
-}
-
-.cube-detail-pop {
-    width: 100%;
-    padding-left: 6%;
-    height: auto;
-}
-
-.activités {
-    margin-top: 60px;
-    margin-left: 40px;
-}
-
-.footer-gris {
-    background-color: #F2F2F2;
-    width: 91%;
-    height: 225px;
-    margin-left: 40px;
-    margin-top: 100px;
-}
-
-.links-size{
-    margin-right: 80px;
-}
-
-.margin-activités {
-    margin-left: 10px;
-    margin-top: 20px;
-}
-
-.width-activités{
-    font-size: 16px;
-    
-}
-
-.width-activités2{
-    margin-top: 20px;
-    font-size: 16px;
-}
-
-.margin-activités2 {
-    margin-left: 10px;
-    margin-top:0px;
-}
-
-.marg-links-footer{
-    margin-bottom: 25px;
-}
-}
 
 
 /* Responsive mobile */
 
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
-    body{
-        max-width: 390px;
+    body {
+        width: 100%;
+        padding: 0;
+        margin: 0;
     }
 
-    .between-container{display: flex;
-    align-items: center;
-    justify-content: center;}
+    .between-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-    .between-column{display: flex;
+    .between-column {
+        display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
     }
 
-    .evenly-container{
+    .evenly-container {
         margin-right: 0px;
     }
 
@@ -951,9 +814,9 @@ form {
         display: flex;
         flex-direction: column;
         margin-left: 20px;
-     }
+    }
 
-    .evenly-container{
+    .evenly-container {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
@@ -962,48 +825,49 @@ form {
 
     .hebergement-link {
         border-top: #0065FC 0px solid;
-        border-bottom: #0065FC  3px solid;
+        border-bottom: #0065FC 3px solid;
         padding-bottom: 20px;
-        color:#0065FC ;
+        color: #0065FC;
         padding-left: 70px;
         padding-right: 40px;
-        
+        width: 100%;
+
     }
-    
+
     .hebergement-link:hover {
         border-top: #0065FC 0px solid;
         border-bottom: #0065FC 3px solid;
-        padding-bottom:20px;
+        padding-bottom: 20px;
         color: #0065FC;
-       
+
     }
-    
+
     .activités-link {
         border-top: #0065FC 0px solid;
         border-bottom: #F2F2F2 3px solid;
         padding-bottom: 20px;
-        color:black;
+        color: black;
         width: 100%;
         padding-left: 25%;
         padding-right: 50%;
         margin-right: 150px;
     }
-    
-    .activités-link:hover{
+
+    .activités-link:hover {
         border-top: #0065FC 0px solid;
         border-bottom: #F2F2F2 3px solid;
         padding-bottom: 20px;
         color: black;
     }
-    
+
 
     .filtre-text-icons {
-        width: 160px;
+        width: 100%;
         border: 3px solid #F2F2F2;
         height: 50px;
         border-radius: 30px;
         margin-top: 20px;
-        margin-right:0px;
+        margin-right: 10px;
         margin-left: 00px;
         font-weight: bold;
         cursor: pointer;
@@ -1013,16 +877,18 @@ form {
         margin-right: 0px;
         border-radius: 0 25px 25px 0;
     }
-    
-    .padding-filtre{
+
+    .padding-filtre {
         padding-right: 40px;
     }
 
-    .textgras {margin-top: 63px;
+    .textgras {
+        margin-top: 63px;
         margin-left: 30px;
         width: 90%;
     }
 
+    
     .margin-filtre {
         margin-top: 50px;
         margin-bottom: 40px;
@@ -1035,8 +901,8 @@ form {
         height: 20px;
         color: #0065FC;
         padding-right: 5px;
-        
-       
+
+
     }
 
 
@@ -1045,38 +911,39 @@ form {
         display: flex;
         flex-direction: column;
         margin-left: 25px;
-     }
+    }
 
-     .filtrage{
+    .filtrage {
         display: flex;
-        margin-right: 50px;
+        margin-right: 40px;
         justify-content: space-between;
-     }
+    }
 
 
-     .icon-size {
+    .icon-size {
         height: 50px;
         width: 50px;
         border-radius: 10px 0 0 10px;
     }
-    
+
     .recherche {
         height: 50px;
-        width: 230px;
+        width: 100%;
         font-size: 18px;
     }
-    
+
     .bordure-search {
-        width: 300px;
+        width: 100%;
         border-radius: 10px;
-        margin-left: 25px;
+        margin-left:  0px;
+        
         border: 0.5px solid #F2F2F2;
     }
 
     .info {
         display: flex;
         align-items: center;
-        margin-left:10px;
+        margin-left: 10px;
         margin-right: 10px;
         padding-left: 10px;
         margin-bottom: 20px;
@@ -1089,7 +956,7 @@ form {
         border-radius: 25px;
         margin-right: 5px;
     }
-    
+
     .button-search {
         height: 50px;
         width: 50px;
@@ -1098,30 +965,30 @@ form {
         border-radius: 0 10px 10px 0;
         font-size: medium;
     }
-    
-    span{
+
+    span {
         display: none;
     }
 
-    .container{
+    .container {
         display: flex;
         justify-content: space-around;
         width: 100%;
         height: auto;
         flex-direction: column-reverse;
         flex-wrap: nowrap;
-    
+
     }
 
-    .tab-row{
+    .tab-row {
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
         align-items: center;
         flex-direction: column;
     }
 
     .size-populaires {
-        width: 475px;
+        width: 100%;
         height: 600px;
         border-radius: 0px;
         background-color: #F2F2F2;
@@ -1141,13 +1008,13 @@ form {
     .bloc-pop {
         padding-left: 50px;
         padding-right: 0px;
-         
+
     }
 
     .sizehebergements {
         width: 100%;
         height: 625px;
-        background-color:white;
+        background-color: white;
         border-radius: 20px;
         margin-left: 10px;
         margin-right: 20px;
@@ -1155,7 +1022,7 @@ form {
     }
 
     .bloc-hebergements {
-        padding-left:40px;
+        padding-left: 40px;
     }
 
     .bloc1 {
@@ -1188,53 +1055,7 @@ form {
         box-shadow: 1px 9px 9px 6px #F2F2F2;
     }
 
-    .img-Hebergement1 {
-        background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
-        background-size: cover;
-        background-position: center;
-        width: 350px;
-        height: 124px;
-        border-radius: 20px 20px 0 0;
-    }
-    
-    .img-Hebergement2 {
-        background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
-        background-size: cover;
-        background-position: center;
-        width: 350px;
-        height: 124px;
-        border-radius: 20px 20px 0 0;
-    }
-    
-    .img-Hebergement3 {
-        background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
-        background-size: cover;
-        background-position: center;
-        width:350px;
-        height: 124px;
-        border-radius: 20px 20px 0 0;
-    }
-    
-    .img-Hebergement4 {
-        background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
-        background-size: cover;
-        background-position: center;
-        width: 350px;
-        height: 124px;
-        border-radius: 20px 20px 0 0;
-    }
-    
-    .img-Hebergement5 {
-        background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
-        background-size: cover;
-        background-position: center;
-        width: 350px;
-        height: 124px;
-        border-radius: 20px 20px 0 0;
-    }
-    
-    .img-Hebergement6 {
-        background-image: url(/assets/Images+Booki/Images_Booki/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+    .img-Hebergement {
         background-size: cover;
         background-position: center;
         width: 350px;
@@ -1243,74 +1064,47 @@ form {
     }
 
     .bloc-activités {
-        width: 334px;
+        width: 100%;
         height: 0px;
     }
 
     .activités {
-        
+
         margin-top: 900px;
-        margin-left: 28px;
-        margin-right: 150px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
-    .img-activités1 {
-        background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    .img-activités {
         background-size: cover;
         background-position: center;
-        width: 357px;
+        width: 334px;
         height: 124px;
         border-radius: 15px 15px 0 0;
     }
-    
-    .img-activités2 {
-        background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
-        background-size: cover;
-        background-position: center;
-        width: 357px;
-        height: 124px;
-        border-radius: 15px 15px 0 0;
-    }
-    
-    .img-activités3 {
-        background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
-        background-size: cover;
-        background-position: center;
-        width: 357px;
-        height: 124px;
-        border-radius: 15px 15px 0 0;
-    }
-    
-    .img-activités4 {
-        background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg);
-        background-size: cover;
-        background-position: center;
-        width: 357px;
-        height: 124px;
-        border-radius: 15px 15px 0 0;
-    }
-    
+
     .cube-activités {
-        width: 357px;
+        width: 334px;
         border-radius: 15px;
         box-shadow: 1px 9px 9px 6px #F2F2F2;
-        cursor:pointer;
+        cursor: pointer;
         margin-bottom: 22px;
     }
 
     .footer-gris {
         background-color: #F2F2F2;
-        width: 430px;
+        width: 90%;
         height: 501px;
         margin-left: 0px;
         margin-top: 900px;
+        
     }
-    
+
     .taille-bloc-footer {
         height: 150px;
     }
-    
-    .marg-links-footer{
+
+    .marg-links-footer {
         margin-bottom: 25px;
     }
 
@@ -1319,7 +1113,7 @@ form {
         margin-right: 130px;
     }
 
-    .margin-search{
+    .margin-search {
         margin-left: 20px;
     }
 
@@ -1327,25 +1121,25 @@ form {
         margin-left: 0px;
         margin-right: 180px;
     }
-    
+
     .marg-footer3 {
         margin-left: 0px;
         margin-right: 210px;
     }
 
-    .hide{
+    .hide {
         display: block;
     }
 
-    .hide2{display: none;}
+    .hide2 {
+        display: none;
+    }
 
-    .text-bold{
+    .text-bold {
         padding-right: 90px;
     }
 
-    .marg-icon{
+    .marg-icon {
         margin-right: 30px;
     }
-} 
-
-
+}
