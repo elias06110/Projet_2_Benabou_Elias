@@ -235,9 +235,9 @@ form {
 .container{
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: auto;
     height: auto;
-   flex-grow: 1;
+   
    
 
 }
