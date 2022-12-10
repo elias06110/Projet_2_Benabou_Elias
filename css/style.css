@@ -236,7 +236,6 @@ form {
 .container {
     display: flex;
     justify-content: space-around;
-    width: auto;
     height: auto;
 
 
@@ -244,7 +243,7 @@ form {
 }
 
 .sizehebergements {
-    width: auto;
+    width: 50%;
     height: 625px;
     background-color: #F2F2F2;
     border-radius: 20px;
@@ -254,14 +253,16 @@ form {
 }
 
 .size-populaires {
-    width: 420px;
+    width: 35%;
     height: 625px;
     border-radius: 20px;
     background-color: #F2F2F2;
     margin-top: 20px;
+    margin-right: 20px;
 }
 
 .bloc-hebergements {
+    width: 65%;
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -274,7 +275,7 @@ form {
 .img-Hebergement {
     background-size: cover;
     background-position: center;
-    width: 246px;
+    width: 100%;
     height: 124px;
     border-radius: 20px 20px 0 0;
 }
@@ -306,11 +307,10 @@ form {
 }
 
 .carte-hebergements {
-    width: 246px;
-    height: 200px;
+    width:90%;
+    height: 220px;
     background-color: white;
-    padding: 1%
-    ;
+    padding: 1%;
     border-radius: 20px;
     margin-right: 30px;
     cursor: pointer;
@@ -319,13 +319,13 @@ form {
 
 .bloc1 {
     margin-bottom: 20px;
-    width: 95%;
+    width: 100%;
     padding-right: 10px;
 }
 
 .bloc2 {
     margin-top: 20px;
-    width: 95%;
+    width: 100%;
     padding-right: 10px;
 
 }
@@ -361,33 +361,17 @@ form {
 
 .cube-pop {
     background-color: white;
-    height: auto;
+    height: 0%;
     width: auto;
     padding: 1% 0 1% 1%;
     border-radius: 20px;
     cursor: pointer;
 }
 
-.img-populaire1 {
+.img-populaire {
     background-size: cover;
     background-position: center;
-    width: 137px;
-    height: 144px;
-    border-radius: 20px 0 0 20px;
-}
-
-.img-populaire2 {
-    background-size: cover;
-    background-position: center;
-    width: 137px;
-    height: 144px;
-    border-radius: 20px 0 0 20px;
-}
-
-.img-populaire3 {
-    background-size: cover;
-    background-position: center;
-    width: 137px;
+    width: 50%;
     height: 144px;
     border-radius: 20px 0 0 20px;
 }
@@ -400,12 +384,12 @@ form {
 }
 
 .bloc-activités {
-    width: 100%;
+    width: 98%;
     height: 505px;
 }
 
 .cube-activités {
-    width: 302px;
+    width: 20%;
     border-radius: 15px;
     box-shadow: 1px 9px 9px 6px #F2F2F2;
     cursor: pointer;
@@ -415,7 +399,7 @@ form {
 .img-activités {
     background-size: cover;
     background-position: center;
-    width: 302px;
+    width: 100%;
     height: 444px;
     border-radius: 15px 15px 0 0;
 }
@@ -434,6 +418,7 @@ form {
     height: 225px;
     margin-left: 20px;
     margin-top: 60px;
+    margin-right: 20px;
 }
 
 .taille-bloc-footer {
@@ -467,20 +452,6 @@ form {
 
 /*Responsive tablette*/
 
-@media screen and (max-width: 1230px) {
-    .sizehebergements {
-        width: auto;
-        height: 625px;
-        background-color: #F2F2F2;
-        border-radius: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: 20px;
-    }
-}
-
-
-
 
 
 @media only screen and (max-width: 991px) {
@@ -489,6 +460,10 @@ form {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+
+    .font-size-14{
+        font-size: 14px;
     }
 
 
@@ -536,12 +511,12 @@ form {
     }
 
     .carte-hebergements {
-        width: 246px;
+        width: 29%;
         height: 192px;
         background-color: white;
         padding: 1%;
         border-radius: 20px;
-        margin-right: 20px;
+        margin-right: 0px;
         cursor: pointer;
     }
 
@@ -549,8 +524,8 @@ form {
     .img-Hebergement {
         background-size: cover;
         background-position: center;
-        width: 246px;
-        height: 150px;
+        width: 100%;
+        height: 80%;
         border-radius: 20px 20px 0 0;
     }
 
@@ -597,8 +572,8 @@ form {
     }
 
     .size-populaires {
-        width: 776px;
-        height: 278px;
+        width: 85%;
+        height: 299px;
         background-color: #F2F2F2;
         border-radius: 20px;
         margin-left: 0px;
@@ -609,7 +584,7 @@ form {
 
 
     .sizehebergements {
-        width: 856px;
+        width: 82%;
         height: 625px;
         background-color: #F2F2F2;
         border-radius: 20px;
@@ -619,34 +594,32 @@ form {
     }
 
     .bloc-hebergements {
-        padding-left: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
     .bloc-pop {
         padding-left: 0px;
-        padding-right: 80px;
-        padding-left: 50px;
-
-
-
+        padding-right: 20px;
+        padding-left: 30px;
     }
 
     .bloc1 {
         margin-bottom: 20px;
-        width: 50%;
+        width: 100%;
         padding-right: 0px;
     }
 
     .bloc2 {
         margin-bottom: 20px;
-        width: 50%;
+        width: 100%;
         padding-right: 10px;
     }
 
 
     .carte-detail {
         width: 90%;
-        height: auto;
+        height: 90%;
     }
 
 
@@ -667,42 +640,27 @@ form {
     }
 
     .cube-activités {
-        width: 182px;
+        width: 20%;
         height: 267px;
         border-radius: 15px;
         box-shadow: 1px 9px 9px 6px #F2F2F2;
         cursor: pointer;
     }
 
-    .img-populaire1 {
+    .img-populaire {
         background-size: cover;
         background-position: center;
-        width: 206px;
+        width: 96px;
         height: 144px;
         border-radius: 20px 0 0 20px;
     }
 
-    .img-populaire2 {
-        background-size: cover;
-        background-position: center;
-        width: 206px;
-        height: 144px;
-        border-radius: 20px 0 0 20px;
-    }
-
-    .img-populaire3 {
-        background-size: cover;
-        background-position: center;
-        width: 206px;
-        height: 144px;
-        border-radius: 20px 0 0 20px;
-    }
 
     .img-activités {
         background-image: url(/assets/Images+Booki/Images_Booki/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
         background-size: cover;
         background-position: center;
-        width: 182px;
+        width: 100%;
         height: 211px;
         border-radius: 15px 15px 0 0;
     }
@@ -715,16 +673,16 @@ form {
 
     .cube-pop {
         background-color: white;
-        height: 135px;
+        height: 150px;
         padding: 1%;
         border-radius: 20px;
         cursor: pointer;
-        width: 237px;
+        width: 250px;
         margin-right: 25px;
     }
 
     .cube-detail-pop {
-        width: 100%;
+        width: 90%;
         padding-left: 6%;
         height: auto;
     }
@@ -736,9 +694,9 @@ form {
 
     .footer-gris {
         background-color: #F2F2F2;
-        width: 91%;
+        width: 90%;
         height: 225px;
-        margin-left: 40px;
+        margin-left: 0px;
         margin-top: 100px;
     }
 
@@ -933,11 +891,16 @@ form {
     }
 
     .bordure-search {
-        width: 100%;
+        width: 300px;
         border-radius: 10px;
         margin-left:  0px;
-        
         border: 0.5px solid #F2F2F2;
+    }
+
+    .centre-mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .info {
@@ -987,6 +950,13 @@ form {
         flex-direction: column;
     }
 
+    .mobile-column{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
     .size-populaires {
         width: 100%;
         height: 600px;
@@ -996,13 +966,27 @@ form {
         margin-right: 30px;
     }
 
+    .img-populaire {
+        background-size: cover;
+        background-position: center;
+        width: 137px;
+        height: 144px;
+        border-radius: 20px 0 0 20px;
+    }
+
     .cube-pop {
         background-color: white;
         height: 144px;
-        width: 350px;
+        width: 334px;
         padding: 1% 0 1% 1%;
         border-radius: 20px;
         cursor: pointer;
+    }
+
+    .cube-detail-pop {
+        width: 50%;
+        padding-left: 6%;
+        height: auto;
     }
 
     .bloc-pop {
@@ -1012,11 +996,11 @@ form {
     }
 
     .sizehebergements {
-        width: 100%;
+        width: 334px;
         height: 625px;
         background-color: white;
         border-radius: 20px;
-        margin-left: 10px;
+        margin-left: 0px;
         margin-right: 20px;
         margin-top: 20px;
     }
@@ -1044,12 +1028,13 @@ form {
     }
 
     .carte-hebergements {
-        width: 350px;
+        width: 334px;
         height: 199px;
         background-color: white;
         padding: 1%;
         border-radius: 20px;
-        margin-right: 30px;
+        margin-right: 0px;
+        margin-left: 15px;
         margin-top: 12px;
         cursor: pointer;
         box-shadow: 1px 9px 9px 6px #F2F2F2;
@@ -1058,7 +1043,7 @@ form {
     .img-Hebergement {
         background-size: cover;
         background-position: center;
-        width: 350px;
+        width: 334px;
         height: 124px;
         border-radius: 20px 20px 0 0;
     }
@@ -1069,7 +1054,7 @@ form {
     }
 
     .activités {
-
+        width: 100%;
         margin-top: 900px;
         margin-left: 0px;
         margin-right: 0px;
@@ -1079,7 +1064,7 @@ form {
         background-size: cover;
         background-position: center;
         width: 334px;
-        height: 124px;
+        height: 150px;
         border-radius: 15px 15px 0 0;
     }
 
