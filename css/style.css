@@ -276,7 +276,7 @@ form {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 124px;
+    height: 60%;
     border-radius: 20px 20px 0 0;
 }
 
@@ -438,16 +438,13 @@ form {
     color: black;
 }
 
-.width-activités2 {
-    margin-top: 20px;
-    font-size: 16px;
-    margin-left: 20px;
-}
+
 
 .width-activités {
-    margin-top: 20px;
+    
     margin-left: 20px;
     font-size: 16px;
+    
 }
 
 /*Responsive tablette*/
@@ -673,7 +670,7 @@ form {
 
     .cube-pop {
         background-color: white;
-        height: 150px;
+        height: 144px;
         padding: 1%;
         border-radius: 20px;
         cursor: pointer;
@@ -696,7 +693,7 @@ form {
         background-color: #F2F2F2;
         width: 90%;
         height: 225px;
-        margin-left: 0px;
+        margin-left: 20px;
         margin-top: 100px;
     }
 
@@ -711,17 +708,18 @@ form {
 
     .width-activités {
         font-size: 16px;
-
+        margin-left: 10px;
+        display: flex;
+        
+        align-items: center;
     }
 
-    .width-activités2 {
-        margin-top: 20px;
-        font-size: 16px;
-    }
+    
 
     .margin-activités2 {
-        margin-left: 10px;
+        margin-left: 0px;
         margin-top: 0px;
+        
     }
 
     .marg-links-footer {
@@ -781,20 +779,32 @@ form {
         width: 100%;
     }
 
+    .bar1{border-bottom:#0065FC 3px solid;
+        width: 50%;
+        margin-top: 20px;
+        
+    }
+
+    .bar2{border-bottom:#F2F2F2 3px solid;
+        width: 50%;
+        margin-top: 20px;
+    
+    }
+
     .hebergement-link {
         border-top: #0065FC 0px solid;
-        border-bottom: #0065FC 3px solid;
-        padding-bottom: 20px;
+        border-bottom: #0065FC 0px solid;
+        padding-bottom: 0px;
         color: #0065FC;
-        padding-left: 70px;
-        padding-right: 40px;
+        padding-left: 0px;
+        padding-right: 90px;
         width: 100%;
 
     }
 
     .hebergement-link:hover {
         border-top: #0065FC 0px solid;
-        border-bottom: #0065FC 3px solid;
+        border-bottom: #0065FC 0px solid;
         padding-bottom: 20px;
         color: #0065FC;
 
@@ -802,18 +812,18 @@ form {
 
     .activités-link {
         border-top: #0065FC 0px solid;
-        border-bottom: #F2F2F2 3px solid;
+        border-bottom: #F2F2F2 0px solid;
         padding-bottom: 20px;
         color: black;
         width: 100%;
-        padding-left: 25%;
-        padding-right: 50%;
-        margin-right: 150px;
+        padding-left: 0px;
+    padding-right: 0px;
+       
     }
 
     .activités-link:hover {
         border-top: #0065FC 0px solid;
-        border-bottom: #F2F2F2 3px solid;
+        border-bottom: #F2F2F2 0px solid;
         padding-bottom: 20px;
         color: black;
     }
@@ -1035,7 +1045,7 @@ form {
         border-radius: 20px;
         margin-right: 0px;
         margin-left: 15px;
-        margin-top: 12px;
+        margin-top: 20px;
         cursor: pointer;
         box-shadow: 1px 9px 9px 6px #F2F2F2;
     }
@@ -1060,6 +1070,11 @@ form {
         margin-right: 0px;
     }
 
+    .marseille{
+        
+        width: 90%;
+    }
+
     .img-activités {
         background-size: cover;
         background-position: center;
@@ -1080,7 +1095,7 @@ form {
         background-color: #F2F2F2;
         width: 90%;
         height: 501px;
-        margin-left: 0px;
+        margin-left: 20px;
         margin-top: 900px;
         
     }
@@ -1100,6 +1115,7 @@ form {
 
     .margin-search {
         margin-left: 20px;
+        margin-top: 40px;
     }
 
     .marg-footer2 {
