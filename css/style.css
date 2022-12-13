@@ -371,7 +371,7 @@ form {
 .img-populaire {
     background-size: cover;
     background-position: center;
-    width: 50%;
+    width: 137px;
     height: 144px;
     border-radius: 20px 0 0 20px;
 }
@@ -522,7 +522,7 @@ form {
         background-size: cover;
         background-position: center;
         width: 100%;
-        height: 80%;
+        height: 50%;
         border-radius: 20px 20px 0 0;
     }
 
