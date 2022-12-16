@@ -41,7 +41,7 @@ h3 {
     cursor: pointer;
 }
 
-.centre {
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,7 +69,7 @@ h3 {
 
 }
 
-.activités-link {
+.activites-link {
     color: black;
 
     padding-left: 20px;
@@ -85,7 +85,7 @@ h3 {
 
 
 
-.activités-link:hover {
+.activites-link:hover {
     border-top: #0065FC 3px solid;
     padding-top: 46px;
     color: #0065FC;
@@ -273,11 +273,16 @@ form {
 
 
 .img-Hebergement {
-    background-size: cover;
+    object-fit: cover;
     background-position: center;
     width: 100%;
-    height: 60%;
+    height: 124px;
     border-radius: 20px 20px 0 0;
+}
+
+.carte-detail {
+    width: 90%;
+    height: 45%;
 }
 
 .column-around {
@@ -330,9 +335,6 @@ form {
 
 }
 
-.carte-detail {
-    width: 90%;
-}
 
 .afficher {
     font-weight: 700;
@@ -369,7 +371,7 @@ form {
 }
 
 .img-populaire {
-    background-size: cover;
+    object-fit: cover;
     background-position: center;
     width: 137px;
     height: 144px;
@@ -397,7 +399,7 @@ form {
 }
 
 .img-activités {
-    background-size: cover;
+    object-fit: cover;
     background-position: center;
     width: 100%;
     height: 444px;
@@ -522,7 +524,7 @@ form {
         background-size: cover;
         background-position: center;
         width: 100%;
-        height: 50%;
+        height: 100px;
         border-radius: 20px 20px 0 0;
     }
 
@@ -665,7 +667,6 @@ form {
     .bloc-activités {
         width: 95%;
         height: auto;
-
     }
 
     .cube-pop {
@@ -684,9 +685,9 @@ form {
         height: auto;
     }
 
-    .activités {
+    .activites {
         margin-top: 60px;
-        margin-left: 40px;
+        margin-left: 80px;
     }
 
     .footer-gris {
@@ -810,7 +811,7 @@ form {
 
     }
 
-    .activités-link {
+    .activites-link {
         border-top: #0065FC 0px solid;
         border-bottom: #F2F2F2 0px solid;
         padding-bottom: 20px;
@@ -821,7 +822,7 @@ form {
        
     }
 
-    .activités-link:hover {
+    .activites-link:hover {
         border-top: #0065FC 0px solid;
         border-bottom: #F2F2F2 0px solid;
         padding-bottom: 20px;
