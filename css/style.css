@@ -5,6 +5,11 @@ body {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0;
+    overflow-x: hidden;
+}
+
+a{
+    color: black;
 }
 
 .blue {
@@ -17,6 +22,9 @@ body {
 
 .hide {
     display: none;
+}
+
+li{list-style: none;
 }
 
 h3, p {
@@ -72,7 +80,6 @@ h3 {
 
 .activites-link {
     color: black;
-
     padding-left: 20px;
     padding-right: 20px;
 
@@ -284,11 +291,11 @@ form {
 }
 
 .margin-star{
-    margin-top: 25%;
+    margin-top: 20%;
 }
 
 .margin-star2{
-    margin-top: 18%;
+    margin-top: 14%;
 }
 
 .carte-detail {
@@ -326,10 +333,12 @@ form {
     width:100%;
     height: 199px;
     background-color: white;
-    padding: 1%;
+    padding: 0.1% 0.4% 0.5%;
     border-radius: 20px;
     margin-right: 30px;
-    cursor: pointer;
+    cursor: pointer; 
+    box-shadow: 0px 5px 10px 1px #dbd5d5;
+
 }
 
 
@@ -379,6 +388,7 @@ form {
     padding: 1% 0 1% 1%;
     border-radius: 20px;
     cursor: pointer;
+    box-shadow: 1px 1px 9px 1px #cfcaca;
 }
 
 .img-populaire {
@@ -388,6 +398,7 @@ form {
     height: 144px;
     border-radius: 20px 0 0 20px;
 }
+
 
 /* Activités */
 
@@ -402,11 +413,11 @@ form {
 }
 
 .cube-activités {
-    width: 20%;
+    width: 22.5%;
     border-radius: 15px;
     box-shadow: 1px 9px 9px 6px #F2F2F2;
     cursor: pointer;
-    height: 500px;
+    height: 490px;
 }
 
 .img-activités {
@@ -440,16 +451,17 @@ form {
 
 .marg-footer1 {
     margin-left: 5%;
+    height: 200px;
+    margin-top: 36px;
 }
 
 .marg-footer3 {
     margin-right: 15%;
 }
 
-.footer-links {
-    text-decoration: none;
-    color: black;
-}
+.marg-links-footer1 {
+        padding-top: 7px;
+    }
 
 
 
@@ -464,7 +476,9 @@ form {
 
 
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
+
+
     .tab-column {
         display: flex;
         justify-content: center;
@@ -596,6 +610,14 @@ form {
         margin-top: 20px;
     }
 
+    .margin-star{
+        margin-top: 0%;
+    }
+    
+    .margin-star2{
+        margin-top: 0%;
+    }
+
 
 
     .sizehebergements {
@@ -635,15 +657,6 @@ form {
     .carte-detail {
         width: 90%;
         height: 90%;
-    }
-
-
-
-    .cube-detail-pop-chambre {
-        width: 100%;
-        padding-left: 6%;
-        height: 190px;
-        margin-bottom: 6px;
     }
 
 
@@ -758,11 +771,7 @@ form {
 
 @media only screen and (max-width: 768px) {
 
-    body {
-        width: 100%;
-        padding: 0;
-        margin: 0;
-    }
+    
 
     .between-container {
         display: flex;
@@ -778,7 +787,7 @@ form {
     }
 
     .evenly-container {
-        margin-right: 0px;
+        margin-right: 70 px;
     }
 
     .Logo {
@@ -795,6 +804,8 @@ form {
         margin-left: 20px;
     }
 
+    
+
     .evenly-container {
         display: flex;
         justify-content: space-evenly;
@@ -802,53 +813,54 @@ form {
         width: 100%;
     }
 
-    .bar1{border-bottom:#0065FC 3px solid;
-        width: 50%;
-        margin-top: 20px;
-        
-    }
-
-    .bar2{border-bottom:#F2F2F2 3px solid;
-        width: 50%;
-        margin-top: 20px;
-    
-    }
 
     .hebergement-link {
         border-top: #0065FC 0px solid;
         border-bottom: #0065FC 0px solid;
-        padding-bottom: 0px;
-        color: #0065FC;
+        padding-bottom: 20px;
+        color: black;
         padding-left: 0px;
-        padding-right: 90px;
+        padding-right: 0px;
         width: 100%;
 
     }
 
     .hebergement-link:hover {
         border-top: #0065FC 0px solid;
-        border-bottom: #0065FC 0px solid;
+        border-bottom: #0065FC 3px solid;
         padding-bottom: 20px;
         color: #0065FC;
+        padding-top: 0px;
 
     }
+    
+    .center-responsive{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 
     .activites-link {
         border-top: #0065FC 0px solid;
-        border-bottom: #F2F2F2 0px solid;
+        border-bottom: white 3px solid;
         padding-bottom: 20px;
         color: black;
         width: 100%;
         padding-left: 0px;
-    padding-right: 0px;
-       
+        padding-right: 0px; 
+    }
+    .width-li{width: 50%;
     }
 
     .activites-link:hover {
+        width:100%;
         border-top: #0065FC 0px solid;
-        border-bottom: #F2F2F2 0px solid;
+        border-bottom:#0065FC 3px solid;
         padding-bottom: 20px;
-        color: black;
+        color: #0065FC;
+        padding-top: 0px;
+        
     }
 
 
@@ -1016,6 +1028,14 @@ form {
         cursor: pointer;
     }
 
+    .margin-star{
+        margin-top: 33%;
+    }
+    
+    .margin-star2{
+        margin-top: 26%;
+    }
+
     .cube-detail-pop {
         width: 50%;
         padding-left: 6%;
@@ -1128,13 +1148,21 @@ form {
     }
 
     .marg-links-footer {
-        margin-bottom: 25px;
+        margin-bottom: 0px;
+    }
+
+    .marg-links-footer1 {
+        margin-bottom: 0px;
     }
 
     .marg-footer1 {
         margin-left: 0px;
         margin-right: 130px;
+        height: 170px;
+        margin-top: 0px;
     }
+
+   
 
     .margin-search {
         margin-left: 20px;

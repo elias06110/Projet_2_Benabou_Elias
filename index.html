@@ -6,9 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <script src="https://kit.fontawesome.com/5f89c10227.js" crossorigin="anonymous"></script>    <!--Lien pour les icones-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>                         
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">    <!--Lien pour la police-->
+    <script src="https://kit.fontawesome.com/5f89c10227.js" crossorigin="anonymous"></script>
+    <!--Lien pour les icones-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <!--Lien pour la police-->
     <link rel="stylesheet" href="css/style.css">
     <title>Booki</title>
 </head>
@@ -19,25 +21,25 @@
             <div class="between-container between-column">
                 <div><img class="Logo" src="images/logo/Booki.png" alt="logo-booki">
                 </div>
-                <div class="evenly-container around-container">
+                <ul class="evenly-container  around-container">
 
-                    <div>
-                        <a class="hebergement-link bar1" href="#">Hébergements</a>
+                    <li class=" width-li">
+                        <a class=" center-responsive hebergement-link " href="#hebergements">Hébergements</a>
 
-                    </div>
-                    <div>
-                        <a class="bar2 activites-link" href="#">Activités</a>
-                    </div>
-                </div>
+                    </li>
+                    <li class="width-li">
+                        <a class=" center-responsive activites-link  " href="#activites">Activités</a>
+                    </li>
+
+                </ul>
+
             </div>
             <div class="between-container">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
             </div>
         </nav>
     </header>
     <main>
-        <section>   <!--Bouton de recherche>-->
+        <section> <!--Bouton de recherche>-->
 
 
             <div class="textgras">
@@ -97,7 +99,7 @@
 
         <section class="container tab-column">
             <div class="sizehebergements  bloc-hebergements">
-                <h2>Hébergements à Marseille</h2>
+                <h2 id="hebergements">Hébergements à Marseille</h2>
                 <div class="bloc1  tab-row between-container">
                     <div class="carte-hebergements column-centre">
                         <img class="img-Hebergement" src="images/hebergements/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
@@ -203,7 +205,7 @@
                     <div class="flex cube-pop bloc-pop12">
                         <img class="img-populaire" src="images/hebergements/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
                             alt="hebergement-populaire1">
-                        <div class="cube-detail-pop">
+                        <div class="column-around cube-detail-pop">
                             <h3 class="font-size-14">Hôtel Le soleil du matin</h3>
                             <p class="font-size-small">Nuit à partir de 128€</p>
                             <div class="margin-star">
@@ -218,7 +220,7 @@
                     <div class="flex cube-pop cube-pop2 bloc-pop12">
                         <img class="img-populaire" src="images/hebergements/aw-creative-VGs8z60yT2c-unsplash.jpg"
                             alt="hebergement-populaire2">
-                        <div class="cube-detail-pop-chambre cube-detail-pop">
+                        <div class=" column-around cube-detail-pop">
                             <h3 class="font-size-14">Chambres d’hôtes Au cœur de l’eau</h3>
                             <p class="font-size-small">Nuit à partir de 128€</p>
                             <div class="margin-star2">
@@ -233,7 +235,7 @@
                     <div class="flex cube-pop bloc-pop12">
                         <img class="img-populaire" src="images/hebergements/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
                             alt="hebergement-populaire3">
-                        <div class="cube-detail-pop">
+                        <div class="column-around cube-detail-pop">
                             <h3 class="font-size-14">Hôtel Bleu et Blanc</h3>
                             <p class="font-size-small">Nuit à partir de 128€</p>
                             <div class="margin-star">
@@ -253,7 +255,7 @@
 
 
         <section class="activités  ">
-            <h2 class=" centre-mobile marseille">Activités à Marseille</h2>
+            <h2 id="activites" class=" centre-mobile marseille">Activités à Marseille</h2>
             <div class=" bloc-activités mobile-column between-container">
                 <div class=" cube-activités">
                     <img class="img-activités" src="images/activites/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
@@ -292,21 +294,21 @@
     <footer>
         <nav class="center">
             <div class="footer-gris centre tab-row between-container">
-                <div class="marg-footer1 taille-bloc-footer">
-                    <h3 class="marg-links-footer">À propos</h3>
-                    <a class="footer-links" href="#">Fonctionnement du site</a>
-                    <p>Conditions générales </p>
-                    <p>Données et confidentialité</p>
+                <div class="marg-footer1 column-around taille-bloc-footer">
+                    <h3 class="marg-links-footer1">À propos</h3>
+                    <a href="#">Fonctionnement du site</a>
+                    <a href="#">Conditions générales </a>
+                    <a href="#">Données et confidentialité</a>
                 </div>
-                <div class="marg-footer2 taille-bloc-footer">
+                <div class="marg-footer2 column-around taille-bloc-footer">
                     <h3 class="marg-links-footer">Nos hébergements</h3>
-                    <p>Charte qualité</p>
-                    <p>Proposer votre hôtel</p>
+                    <a href="#">Charte qualité</a>
+                    <a href="#">Proposer votre hôtel</a>
                 </div>
-                <div class="marg-footer3 taille-bloc-footer">
+                <div class="marg-footer3 column-around taille-bloc-footer">
                     <h3 class="marg-links-footer">Assistance</h3>
-                    <p>Centre d’aide</p>
-                    <p>Nous contacter</p>
+                    <a href="#">Centre d'aide</a>
+                    <a href="#">Nous contacter</a>
                 </div>
             </div>
         </nav>
