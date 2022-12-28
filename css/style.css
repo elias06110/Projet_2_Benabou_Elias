@@ -109,6 +109,11 @@ a {
     text-decoration: none;
 }
 
+.centre-ville{
+    font-size: medium;
+    font-weight: lighter;
+}
+
 
 
 /******/
@@ -263,7 +268,7 @@ form {
 }
 
 .size-populaires {
-    width: 30%;
+    width: 28%;
     height: 625px;
     border-radius: 20px;
     background-color: #F2F2F2;
@@ -271,10 +276,11 @@ form {
     margin-right: 20px;
 }
 
+
 .bloc-hebergements {
-    width: 65%;
+    width: 59%;
     padding-left: 40px;
-    padding-right: 40px;
+    padding-right: 15px;
 }
 
 .font-size-small {
@@ -291,11 +297,15 @@ form {
 }
 
 .margin-star{
-    margin-top: 20%;
+    margin-top: 27%;
 }
 
 .margin-star2{
-    margin-top: 14%;
+    margin-top: 25%;
+}
+
+.margin-star3{
+    margin-top: 35%;
 }
 
 .carte-detail {
@@ -344,8 +354,13 @@ form {
 
 .bloc1 {
     margin-bottom: 20px;
+    margin-top: 30px;
     width: 100%;
     padding-right: 10px;
+}
+
+.margin-title-hebergements-populaires{
+    margin-top: 50px;
 }
 
 .bloc2 {
@@ -366,8 +381,8 @@ form {
 
 
 .bloc-pop {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    
 
 }
 
@@ -384,21 +399,26 @@ form {
 .cube-pop {
     background-color: white;
     height: 144px;
-    width: 100%;
+    width: 87%;
     padding: 1% 0 1% 1%;
     border-radius: 20px;
     cursor: pointer;
     box-shadow: 1px 1px 9px 1px #cfcaca;
+    margin-left: 5px;
 }
 
 .img-populaire {
     object-fit: cover;
     background-position: center;
-    width: 137px;
+    width: 43%;
     height: 144px;
     border-radius: 20px 0 0 20px;
 }
 
+.marg-icon{
+    margin-right: 50px;
+    margin-top: 40px;
+}
 
 /* Activités */
 
@@ -439,7 +459,7 @@ form {
 .footer-gris {
     background-color: #F2F2F2;
     width: 1380px;
-    height: 225px;
+    height: 280px;
     margin-left: 20px;
     margin-top: 60px;
     margin-right: 20px;
@@ -538,7 +558,7 @@ form {
         width: 30%;
         height: 192px;
         background-color: white;
-        padding: 1%;
+        padding: 0.6% 0.4% 0.5%; ;
         border-radius: 20px;
         margin-right: 0px;
         cursor: pointer;
@@ -610,12 +630,28 @@ form {
         margin-top: 20px;
     }
 
+    .marg-icon{
+        margin-right: 20px;
+        margin-bottom: 40px;
+    }
+
     .margin-star{
-        margin-top: 0%;
+        margin-top: 37%;
     }
     
     .margin-star2{
-        margin-top: 0%;
+        margin-top: 40%;
+    }
+
+    .margin-star3{
+        margin-top: 40%;
+    }
+    
+    
+
+    .margin-title-hebergements-populaires{
+        margin-bottom: 30px;
+        margin-top: 30px;
     }
 
 
@@ -702,7 +738,7 @@ form {
     .cube-pop {
         background-color: white;
         height: 144px;
-        padding: 1%;
+        
         border-radius: 20px;
         cursor: pointer;
         width: 50%;
@@ -728,7 +764,7 @@ form {
     .footer-gris {
         background-color: #F2F2F2;
         width: 90%;
-        height: 225px;
+        height: 270px;
         margin-left: 20px;
         margin-top: 100px;
     }
@@ -761,6 +797,24 @@ form {
     .marg-links-footer {
         margin-bottom: 25px;
     }
+
+    .marg-footer1 {
+        margin-left: 5%;
+        height: 200px;
+        margin-top: 36px;
+        margin-bottom: 50px;
+    }
+
+    .marg-footer2{
+        margin-bottom: 50px;
+
+    }
+    
+    .marg-footer3 {
+        margin-right: 15%;
+        margin-bottom: 50px;
+    }
+
 }
 
 
@@ -998,13 +1052,12 @@ form {
     .mobile-column{
         display: flex;
         justify-content: space-between;
-        align-items: center;
         flex-direction: column;
     }
 
     .size-populaires {
         width: 100%;
-        height: 600px;
+        height: 680px;
         border-radius: 0px;
         background-color: #F2F2F2;
         margin-top: 20px;
@@ -1029,11 +1082,11 @@ form {
     }
 
     .margin-star{
-        margin-top: 33%;
+        margin-top: 30%;
     }
     
     .margin-star2{
-        margin-top: 26%;
+        margin-top: 20%;
     }
 
     .cube-detail-pop {
@@ -1084,11 +1137,11 @@ form {
         width: 334px;
         height: 199px;
         background-color: white;
-        padding: 1%;
+        padding: 4% 2% 0.5%;
         border-radius: 20px;
         margin-right: 0px;
         margin-left: 15px;
-        margin-top: 20px;
+        margin-bottom: 20px;
         cursor: pointer;
         box-shadow: 1px 9px 9px 6px #F2F2F2;
     }
@@ -1115,7 +1168,15 @@ form {
     }
 
     .marseille{
-        width: 90%;
+        width: 80%;
+        margin-bottom: 20px;
+        padding-top: 90px;
+        
+    }
+
+    .margin-title-hebergements-populaires{
+        margin-top: 10px;
+        margin-bottom: 0px;
     }
 
     .img-activités {
@@ -1137,7 +1198,7 @@ form {
     .footer-gris {
         background-color: #F2F2F2;
         width: 90%;
-        height: 501px;
+        height: 530px;
         margin-left: 20px;
         margin-top: 900px;
         
@@ -1159,7 +1220,8 @@ form {
         margin-left: 0px;
         margin-right: 130px;
         height: 170px;
-        margin-top: 0px;
+        margin-top: 20px;
+        margin-bottom: 0px;
     }
 
    
@@ -1172,11 +1234,14 @@ form {
     .marg-footer2 {
         margin-left: 0px;
         margin-right: 180px;
+        margin-bottom: 0px;
     }
 
     .marg-footer3 {
         margin-left: 0px;
         margin-right: 210px;
+        margin-bottom: 20px;
+        
     }
 
     .hide {
@@ -1193,5 +1258,6 @@ form {
 
     .marg-icon {
         margin-right: 30px;
+        margin-top: 40px;
     }
 }
