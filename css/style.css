@@ -410,7 +410,7 @@ form {
 .img-populaire {
     object-fit: cover;
     background-position: center;
-    width: 43%;
+    width: 120px;
     height: 144px;
     border-radius: 20px 0 0 20px;
 }
