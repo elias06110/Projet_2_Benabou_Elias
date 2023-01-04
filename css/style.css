@@ -5,7 +5,6 @@ body {
     max-width: 1400px;
     margin: 0 auto;
     padding: 0;
-    overflow-x: hidden;
 }
 
 a{
@@ -47,7 +46,6 @@ h3 {
     height: 19px;
     margin-left: 20px;
     margin-top: 44px;
-    cursor: pointer;
 }
 
 .center {
@@ -112,8 +110,14 @@ a {
 .centre-ville{
     font-size: medium;
     font-weight: lighter;
+   
 }
 
+
+.a-link{
+    height: 98%;
+    width: 100%;
+}
 
 
 /******/
@@ -310,6 +314,7 @@ form {
 
 .carte-detail {
     width: 90%;
+    padding: 0px 0px 12px 12px;
     
 }
 
@@ -346,7 +351,6 @@ form {
     padding: 0.1% 0.4% 0.5%;
     border-radius: 20px;
     margin-right: 30px;
-    cursor: pointer; 
     box-shadow: 0px 5px 10px 1px #dbd5d5;
 
 }
@@ -373,8 +377,7 @@ form {
 
 .afficher {
     font-weight: 700;
-    padding-top: 20px;
-    cursor: pointer;
+    padding-top: 30px;
 }
 
 /*Populaires*/
@@ -402,7 +405,6 @@ form {
     width: 87%;
     padding: 1% 0 1% 1%;
     border-radius: 20px;
-    cursor: pointer;
     box-shadow: 1px 1px 9px 1px #cfcaca;
     margin-left: 5px;
 }
@@ -436,7 +438,6 @@ form {
     width: 22.5%;
     border-radius: 15px;
     box-shadow: 1px 9px 9px 6px #F2F2F2;
-    cursor: pointer;
     height: 490px;
 }
 
@@ -578,7 +579,7 @@ form {
 
         margin-top: 63px;
         margin-left: 40px;
-        width: 100%;
+        
 
     }
 
@@ -591,7 +592,7 @@ form {
         margin-top: 50px;
         margin-bottom: 40px;
         margin-left: 40px;
-        width: 100%;
+        
     }
 
     .filtre-texte {
@@ -870,7 +871,7 @@ form {
 
     .hebergement-link {
         border-top: #0065FC 0px solid;
-        border-bottom: #0065FC 0px solid;
+        border-bottom:#F2F2F2 3px solid;
         padding-bottom: 20px;
         color: black;
         padding-left: 0px;
@@ -897,7 +898,7 @@ form {
 
     .activites-link {
         border-top: #0065FC 0px solid;
-        border-bottom: white 3px solid;
+        border-bottom:#F2F2F2 3px solid;
         padding-bottom: 20px;
         color: black;
         width: 100%;
@@ -972,7 +973,7 @@ form {
 
     .filtrage {
         display: flex;
-        margin-right: 40px;
+        margin-right: 20px;
         justify-content: space-between;
     }
 
@@ -1075,18 +1076,19 @@ form {
     .cube-pop {
         background-color: white;
         height: 144px;
-        width: 334px;
+        width: 90%;
         padding: 1% 0 1% 1%;
         border-radius: 20px;
         cursor: pointer;
+        margin-right: 0px;
     }
 
     .margin-star{
-        margin-top: 30%;
+        margin-top: 10%;
     }
     
     .margin-star2{
-        margin-top: 20%;
+        margin-top: 10%;
     }
 
     .cube-detail-pop {
@@ -1096,7 +1098,6 @@ form {
     }
 
     .bloc-pop {
-        padding-left: 50px;
         padding-right: 0px;
 
     }
@@ -1129,13 +1130,21 @@ form {
 
     .carte-detail {
         width: 90%;
-        height: auto;
-        margin-bottom: 10px;
+        height: 50%;
+        margin-bottom:0px;
+        
+        padding: 0px 12px 0px 12px;
+    }
+
+    .a-link{
+        height: 70%;
+        width: 100%;
+        margin-bottom: 100px;
     }
 
     .carte-hebergements {
         width: 334px;
-        height: 199px;
+        height: 205px;
         background-color: white;
         padding: 4% 2% 0.5%;
         border-radius: 20px;
@@ -1152,6 +1161,7 @@ form {
         width: 334px;
         height: 124px;
         border-radius: 20px 20px 0 0;
+        margin-top: 10px;
     }
 
     .bloc-activités {
@@ -1260,4 +1270,11 @@ form {
         margin-right: 30px;
         margin-top: 40px;
     }
+
+    .afficher {
+        font-weight: 700;
+        padding-top: 30px;
+        display: none;
+    }
+    
 }

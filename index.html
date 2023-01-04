@@ -15,11 +15,12 @@
     <title>Booki</title>
 </head>
 
-<body>
+<body id="site">
     <header>
         <nav>
             <div class="between-container between-column">
-                <div><img class="Logo" src="images/logo/Booki.png" alt="logo-booki">
+                <div><a href="index.html"><img class="Logo" src="images/logo/Booki.png" alt="logo-booki">
+                    </a>
                 </div>
                 <ul class="evenly-container  around-container">
 
@@ -97,25 +98,33 @@
 
         <!--Hebergements-->
 
-        <article class="container tab-column">
+        <div class="container tab-column">
             <div class="sizehebergements  bloc-hebergements">
                 <h2 class="margin-title-hebergements-populaires" id="hebergements">Hébergements à Marseille</h2>
                 <div class="bloc1  tab-row between-container">
-                    <div class="carte-hebergements column-centre">
-                        <img class="img-Hebergement" src="images/hebergements/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                            alt="img-Hebergement1">
-                        <div class="carte-detail">
-                            <h3>Auberge La Canebière</h3>
-                            <p class="font-size-small">Nuit à partir de 25€</p>
-                            <div><i class="fa-solid fa-star blue"></i>
-                                <i class="fa-solid fa-star blue"></i>
-                                <i class="fa-solid fa-star blue"></i>
-                                <i class="fa-solid fa-star blue"></i>
-                                <i class="fa-solid fa-star grey"></i>
+
+                    <article class="carte-hebergements column-centre">
+                        <a class="a-link" href="#">
+                            <img class="img-Hebergement" src="images/hebergements/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                alt="img-Hebergement1">
+
+                            <div class="carte-detail">
+                                <h3>Auberge La Canebière</h3>
+                                <p class="font-size-small">Nuit à partir de 25€</p>
+
+                                <div><i class="fa-solid fa-star blue"></i>
+                                    <i class="fa-solid fa-star blue"></i>
+                                    <i class="fa-solid fa-star blue"></i>
+                                    <i class="fa-solid fa-star blue"></i>
+                                    <i class="fa-solid fa-star grey"></i>
+                                </div>
+
                             </div>
-                        </div>
-                    </div>
-                    <div class="carte-hebergements column-centre">
+                        </a>
+                    </article>
+
+                    <article class="carte-hebergements column-centre">
+                        <a class="a-link" href="#">
                         <img class="img-Hebergement" src="images/hebergements/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
                             alt="img-Hebergement2">
                         <div class="carte-detail">
@@ -128,8 +137,10 @@
                                 <i class="fa-solid fa-star grey"></i>
                             </div>
                         </div>
-                    </div>
-                    <div class="carte-hebergements column-centre">
+                    </a>
+                    </article>
+                    <article class="carte-hebergements column-centre">
+                        <a class="a-link" href="#">
                         <img class="img-Hebergement" src="images/hebergements/reisetopia-B8WIgxA_PFU-unsplash.jpg"
                             alt="img-Hebergement3">
                         <div class="carte-detail">
@@ -142,10 +153,12 @@
                                 <i class="fa-solid fa-star grey"></i>
                             </div>
                         </div>
-                    </div>
+                    </a>
+                    </article>
                 </div>
                 <div class="bloc2 tab-row between-container">
-                    <div class="carte-hebergements  column-centre">
+                    <article class="carte-hebergements  column-centre">
+                        <a class="a-link" href="#">
                         <img class="img-Hebergement" src="images/hebergements/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
                             alt="img-Hebergement4">
                         <div class="carte-detail">
@@ -158,8 +171,10 @@
                                 <i class="fa-solid fa-star grey"></i>
                             </div>
                         </div>
-                    </div>
-                    <div class="carte-hebergements column-centre">
+                    </a>
+                    </article>
+                    <article class="carte-hebergements column-centre">
+                        <a class="a-link" href="#">
                         <img class="img-Hebergement" src="images/hebergements/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
                             alt="img-Hebergement5">
                         <div class="carte-detail">
@@ -172,8 +187,10 @@
                                 <i class="fa-solid fa-star grey"></i>
                             </div>
                         </div>
-                    </div>
-                    <div class="carte-hebergements column-centre">
+                    </a>
+                    </article>
+                    <article class="carte-hebergements column-centre">
+                        <a class="a-link" href="#">
                         <img class="img-Hebergement" src="images/hebergements/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
                             alt="img-Hebergement6">
                         <div class="carte-detail">
@@ -186,10 +203,11 @@
                                 <i class="fa-solid fa-star grey "></i>
                             </div>
                         </div>
-                    </div>
+                    </a>
+                    </article>
                 </div>
-                <div>
-                    <p class="afficher"><span>Afficher plus</span></p>
+                <div class="afficher">
+                    <a href="#">Afficher plus</a>
                 </div>
             </div>
 
@@ -202,12 +220,12 @@
                     <div><i class=" fa-solid fa-chart-line fa-lg blue marg-icon"></i></div>
                 </div>
                 <div class="column-around tab-row">
-                    <div class="flex cube-pop bloc-pop12">
+                    <article class="flex cube-pop bloc-pop12">
                         <img class="img-populaire" src="images/hebergements/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
                             alt="hebergement-populaire1">
                         <div class="mobile-column cube-detail-pop">
                             <h3 class="font-size-14">Hôtel Le soleil du matin</h3>
-                
+
                             <p class="font-size-small">Nuit à partir de 128€</p>
                             <div class="margin-star">
                                 <i class="fa-solid fa-star blue"></i>
@@ -215,11 +233,11 @@
                                 <i class="fa-solid fa-star blue"></i>
                                 <i class="fa-solid fa-star blue"></i>
                                 <i class="fa-solid fa-star grey "></i>
-                            
+
                             </div>
                         </div>
-                    </div>
-                    <div class="flex cube-pop cube-pop2 bloc-pop12">
+                    </article>
+                    <article class="flex cube-pop cube-pop2 bloc-pop12">
                         <img class="img-populaire" src="images/hebergements/aw-creative-VGs8z60yT2c-unsplash.jpg"
                             alt="hebergement-populaire2">
                         <div class=" mobile-column cube-detail-pop">
@@ -233,8 +251,8 @@
                                 <i class="fa-solid fa-star grey "></i>
                             </div>
                         </div>
-                    </div>
-                    <div class="flex cube-pop bloc-pop12">
+                    </article>
+                    <article class="flex cube-pop bloc-pop12">
                         <img class="img-populaire" src="images/hebergements/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
                             alt="hebergement-populaire3">
                         <div class="mobile-column cube-detail-pop">
@@ -248,47 +266,65 @@
                                 <i class="fa-solid fa-star grey "></i>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
             </div>
-        </article>
+        </div>
 
         <!--Activités-->
 
 
-        <article class="activités  ">
+        <div class="activités  ">
             <h2 id="activites" class=" centre-mobile marseille">Activités à Marseille</h2>
             <div class=" bloc-activités mobile-column between-container">
-                <div class=" cube-activités">
-                    <img class="img-activités" src="images/activites/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
-                        alt="vieux-port">
-                    <div class="margin-activités2">
-                        <h3 class=" width-activités">Vieux-Port</h3>
-                    </div>
-                </div>
-                <div class="cube-activités">
-                    <img class="img-activités" src="images/activites/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
-                        alt="fort-de-pomègues">
-                    <div class="margin-activités2">
-                        <h3 class="width-activités">Fort de Pomègues</h3>
-                    </div>
-                </div>
-                <div class="cube-activités">
-                    <img class="img-activités" src="images/activites/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
-                        alt="parc-national-des-calanques">
-                    <div class="margin-activités2">
-                        <h3 class="width-activités">Parc national des Calanques</h3>
-                    </div>
-                </div>
-                <div class="cube-activités">
-                    <img class="img-activités" src="images/activites/florian-wehde-xW9e8gdotxI-unsplash.jpg"
-                        alt="Notre-Dame-de-la-Garde">
-                    <div class="margin-activités2">
-                        <h3 class="width-activités">Notre-Dame-de-la-Garde</h3>
-                    </div>
-                </div>
+                <article class=" cube-activités">
+                    <a href="vieux-port">
+
+                        <img class="img-activités" src="images/activites/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                            alt="vieux-port">
+                        <div class="margin-activités2">
+                            <h3 class=" width-activités">Vieux-Port</h3>
+                        </div>
+                    </a>
+                </article>
+
+
+
+                <article class="cube-activités">
+                    <a href="#fort-de-pomegues">
+                        <img class="img-activités" src="images/activites/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                            alt="fort-de-pomègues">
+                        <div class="margin-activités2">
+                            <h3 class="width-activités">Fort de Pomègues</h3>
+                        </div>
+                    </a>
+                </article>
+
+
+
+                <article class="cube-activités">
+                    <a href="#parc-national-des-calanques">
+                        <img class="img-activités" src="images/activites/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                            alt="parc-national-des-calanques">
+                        <div class="margin-activités2">
+                            <h3 class="width-activités">Parc national des Calanques</h3>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="cube-activités">
+                    <a href="#notre-dame-de-la-garde">
+
+                        <img class="img-activités" src="images/activites/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                            alt="Notre-Dame-de-la-Garde">
+                        <div class="margin-activités2">
+                            <h3 class="width-activités">Notre-Dame-de-la-Garde</h3>
+                        </div>
+                    </a>
+                </article>
+
             </div>
-        </article>
+        </div>
     </main>
 
     <!--Footer-->
